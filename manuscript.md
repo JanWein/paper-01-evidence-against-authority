@@ -1,0 +1,401 @@
+---
+abstract: |
+  Reputational resistance can reduce investigation even when managers use acquired evidence efficiently. We solve a Bayesian acquisition-and-correction game with an authenticated initial diagnosis and costly process audits. Career concerns depress private acquisition below its efficient level. Auditing unchanged decisions encourages investigation, whereas auditing reversals is redundant in equilibrium. For uniform investigation costs, we characterize the welfare-optimal targeted audit, including an explicit cost threshold and conditions for a unique partial audit. A private-ability counterexample shows why documentation need not restore efficient acquisition when information purchases also reveal type. The results apply to the stated authenticated-record and committed-audit institution; numerical examples are synthetic.
+author:
+- Dr. Jan-Hendrik Weinert
+date: 19 October 2026
+title: "Evidence Against Authority: Costly Verification and the Audit of Unchanged Decisions"
+---
+
+# 1. Introduction
+
+An unchanged decision is ambiguous. It can reflect confirming evidence, justified confidence in an original diagnosis, a suppressed warning, or a choice not to investigate. Organizational records often document the final decision more readily than the search that preceded it. Consequently, a policy aimed only at encouraging managers to reverse bad decisions may miss the principal response to career concerns: fewer costly checks are commissioned in the first place.
+
+This article studies a manager whose earlier diagnostic accuracy affects a Bayesian evaluator's assessment. A new signal can improve the final action but can also contradict the original diagnosis. The manager privately chooses whether to acquire that signal and then chooses either final action. An auditor can retrieve a sealed record of acquisition and, if acquired, the signal. The audit is costly and its rule is announced before investigation. The evaluator observes the original diagnostic output and the final action, with an audit supplying additional process information before reputation is assessed.
+
+The equilibrium specializes the established instrumental role of costly information to an authenticated prior diagnosis. In a fixed-information benchmark, a manager may retain an initially preferred action despite understanding contradictory evidence. With a privately purchased, purely instrumental signal and no ability information beyond the signal history, such behavior cannot coexist with positive-cost acquisition in equilibrium. If the continuation gain from acting on contradiction were zero or negative, buying the signal would have no positive private return. Managers who pay to investigate must therefore strictly prefer to use its corrective content. Career concerns remain inefficient, but they reduce investigation rather than the conditional correction probability.
+
+The second result concerns audit design. Once all purchased contradictory evidence is used, a reversal already identifies the acquisition of a contradictory signal. An audit of that reversal supplies no new information about initial diagnostic ability. An unchanged decision, by contrast, pools an uninvestigated diagnosis with an investigated and confirmed one. Auditing this pooled event makes investigation more attractive. The model determines acquisition and the audit workload jointly: a successful policy generates more reversals, reducing the fraction of decisions that need to be inspected. We solve the optimal audit within a clearly specified feasible class and obtain an explicit cost threshold for whether any audit is worthwhile.
+
+The economic trade-off is neither an assumed disincentive to effort under transparency nor an assumed preference for partial disclosure. Disclosure increases acquisition in the main environment. Partial audit arises because information and audit resources have opportunity costs. Under a stated regularity condition, any strictly positive audit cost makes complete auditing of unchanged decisions excessive; a sufficiently large cost makes no auditing optimal. Outside that condition, a finite candidate characterization still gives the global optimum without presuming an interior solution.
+
+The results are deliberately conditional. The initial diagnostic output is authenticated, though its endorsement can be chosen strategically. The manager initially lacks private information about own diagnostic ability. We give a fully solved counterexample with known ability in which acquisition itself becomes a bad signal and remains inefficient under full documentation. That counterexample identifies a boundary of the main theorem rather than adding an unsolved general model. A separate protocol proposes a compact test of evidence acquisition with signal quality held fixed. The article establishes theoretical results, not empirical effects on managerial behavior or firm profits.
+
+# 2. Related literature and the specific contribution
+
+Prendergast and Stole (1996) show that career concerns distort a sequence of managerial investment choices, including later conservatism. Their result establishes the reputational mechanism underlying our fixed-information benchmark. Our equilibrium adds an authenticated diagnostic record and a unique endogenous acquisition cutoff in the stated parameter region. The positive-cost instrumental-acquisition step has a close antecedent discussed below and is not offered as independently original. Initial diagnostic ability is not an ability to receive better corrective signals; the later signal has common precision.
+
+Prat (2005) distinguishes disclosure of an action from disclosure of its consequence. In his May 2004 working paper, Proposition 4 separates effects on decision discipline from effects on sorting; Proposition 5 shows that greater consequence observability permits more action observability while preserving a separating equilibrium. That proposition restricts attention to pooling and separating equilibria and does not establish a general sorting comparison. Our audit retrieves acquisition and its signal, not a realized consequence. Actions remain public, and the planner here assigns no direct value to sorting. The new audit theorem solves a resource-cost problem over action-contingent trail inspections after acquisition becomes endogenous; it does not claim that complementarity between accountability records was previously unknown.
+
+Levy (2007) studies the interaction of voting rules, transparency, and reputation in committees. Concealing individual actions need not eliminate reputational distortions. Our result concerns a single manager and the allocation of inspection across corrected and unchanged decisions. It makes no claim about optimal voting or the quality of collective information aggregation.
+
+Bar-Isaac (October 2011 manuscript, Sections 2-4) studies one safe and two risky actions, costly binary effort, observed outcomes, and an action-linked premium $R$. The opening of his Proposition 1 proof excludes costly effort followed by the information-insensitive safe action. His Proposition 1 compares existence of effort equilibria across action-observation regimes according to the sign of $R$; Section 4 also discusses direct observation of information. Thus the instrumental-acquisition logic used in our equation (6) has an explicit antecedent. We do not claim it as original. The cited manuscript is distinguished bibliographically from the 2012 final publication.
+
+The specific additional content here concerns an authenticated diagnosis and a feasible audit technology. Retention here yields $1\{s=\theta\}$, not an intrinsically constant payoff. Contradiction informs the evaluator about *earlier* diagnostic ability, while the corrective signal's precision is independent of that ability. Under the independent-cost, unknown-own-type information structure of Sections 3.1-3.2 and the bounds (D) in Section 3.3, Theorem 1 derives a unique acquisition allocation without selecting label symmetry. Equations (4)-(5) determine both the cutoff and the endogenous posterior wedge; equation (6) is an environment-specific application of the antecedent instrumental logic. The theorem is not a general claim that paying for information always ensures efficient use.
+
+The audit result is the main incremental design content. Actions remain public and final outcomes are withheld until after career assessment. Within the committed two-probability signal-trail technology of Section 3.2, Proposition 1 in Section 5.1 proves that reversal inspection is redundant, while retention inspection distinguishes no acquisition from confirmation. Its endogenous workload is $\tau_N(1-dq)$ in equation (8). For uniform costs, equations (10)-(12) solve the global feasible optimum; Theorem 3 and equations (13)-(15) give the additional condition and explicit cost threshold for unique partial auditing versus no auditing. These are not consequences of equation (6) alone: they require the diagnostic posterior identities, the specified inspection contents, real inspection costs, and the feasible policy restrictions. Neither an unrestricted audit optimum nor a direct sorting benefit is claimed.
+
+Gersbach and Hahn (2012) study costly information and transparency in committees, including implications for effort and subsequent composition. Together with the antecedent above, this rules out a broad originality claim based on endogenizing information. Our bounded contribution is the jointly solved diagnostic-record equilibrium, retention-trail targeting, and endogenous-workload audit-cost characterization. Prat's consequence records remain distinct from the signal trails inspected here.
+
+Ishida and Suen (2026) show that quitting can signal an ability to recognize project quality; informed agents respond efficiently to news while other agents distort their quitting times. Their information structure cautions against treating revision as an intrinsically negative ability signal. In our main model, contradiction predicts lower *initial* diagnostic accuracy, whereas ability does not affect the precision of corrective evidence. The private-ability counterexample then shows how endogenous selection into acquisition can revive an adverse reputational signal even with complete records.
+
+Hoffman, Kahn, and Li (2018) motivate distinguishing informative managerial discretion from harmful departures from testing recommendations. Dietvorst, Simmons, and Massey (2015) and Yaniv and Kleinberger (2000) identify distinct problems of algorithm reliance and advice discounting. The mechanism here does not require mistaken private beliefs, distrust of a signal, or an algorithm. Its identifying prediction is about whether evidence is acquired, conditional on an unchanged and known information technology.
+
+The contribution is thus a solved conjunction of hidden costly corrective search, endogenous correction, and resource-constrained audit targeting. The claim is limited to the propositions proved here, rather than priority over every model of strategic ignorance or transparency.
+
+# 3. Environment
+
+## 3.1 Signals, private cost, and actions
+
+The binary state $\theta\in\{0,1\}$ has prior one half. Diagnostic ability $T\in\{H,L\}$ is independent of $\theta$, with $P(T=H)=\mu\in(0,1)$. An authenticated diagnostic output $s\in\{0,1\}$ satisfies $P(s=\theta\mid T=t)=p_t$, with $1/2<p_L<p_H<1$. Both the evaluator and manager initially lack information about $T$ beyond the common prior. In particular, observing the label $s$ does not change that prior.
+
+After seeing $s$, the manager privately observes a cost $c$, independently drawn from a continuous distribution $F$ on $[0,C]$, with positive density on its interior. The manager chooses acquisition $e\in\{0,1\}$. Acquisition costs $c$ and produces $z\in\{0,1\}$ with accuracy $r$, independently of $(s,T)$ conditional on $\theta$. If $e=0$, no $z$ is available to the manager. If $e=1$, its actual realization is irreversibly recorded. There is no forgery or record deletion.
+
+The final action is unrestricted: $a\in\{0,1\}$, whether or not evidence was acquired and whether or not it confirms $s$. The state is not revealed to the evaluator before reputation is paid. We call $a=s$ retention and $a\ne s$ reversal; these terms refer to the diagnostic output, not to an arbitrary public message.
+
+The manager's expected utility is
+
+$$\mathbb E[1\{a=\theta\}+\lambda m-ec],\tag{1}$$
+
+where $m$ is the evaluator's posterior probability that $T=H$ and $\lambda>0$. The evaluator follows Bayes' rule and has no independent strategic wage-setting decision. Career payoff is a reduced form. The planner values correct action, incurs audit cost, and internalizes real investigation cost when evaluating total surplus. We distinguish this welfare objective from a firm's accounting profit that excludes the manager's effort cost.
+
+## 3.2 Committed audit technology
+
+The planner chooses $(\tau_N,\tau_R)\in[0,1]^2$, before acquisition, where $\tau_N$ is the probability of auditing a retention and $\tau_R$ the probability of auditing a reversal. The rule is public. The random audit realization occurs after action and is conditionally independent of all private information given retention or reversal. The evaluator always observes $(s,a)$ and the audit flag. An audit retrieves either the record $e=0$, or the record $(e=1,z)$. Cost is $\kappa>0$ per actual inspection, even when no evidence was purchased. Audit information arrives before reputation is assessed.
+
+The planner cannot directly purchase the manager's evidence, impose acquisition mandates or fines, pay type-contingent rewards, observe $c$, or choose arbitrary garblings. These restrictions define the feasible audit problem. A different institutional instrument can dominate this class; our optimum is not an unrestricted mechanism-design optimum. Audit commitment is essential, since a later evaluator can prefer more information than the ex ante policy permits.
+
+We use Bayesian sequentially consistent assessments: strategies and their perturbations are measurable with respect to the manager's actual information. Because the manager does not observe $T$, trembles cannot condition directly on it. At a fully documented history, any compatible perturbation has the same distribution of private cost conditional on $T$. Thus an off-path action cannot arbitrarily change ability beliefs conditional on a complete record. This is a consequence of the information structure, proved in Appendix A. It differs from assigning an off-path reputation to an otherwise unverifiable reversal.
+
+## 3.3 Derived quantities and the parameter domain
+
+Let
+
+$$p=\mu p_H+(1-\mu)p_L,\quad h=r-p>0,$$ $$d_t=p_t(1-r)+(1-p_t)r,\quad d=\mu d_H+(1-\mu)d_L,$$ $$m_C=\frac{\mu d_H}{d},\quad m_F=\frac{\mu(1-d_H)}{1-d},\quad A=\mu-m_C>0,$$ $$g=\frac{h}{d},\quad B=m_F-m_C=\frac{A}{1-d},\quad L=\lambda d A.\tag{2}$$
+
+Here $d$ is the probability of contradiction conditional on acquisition. With both signals, the accuracy advantage of following $z$ at contradiction is $g$. A confirming pair favors retention more strongly than $s$ alone. Efficient acquisition occurs at $c<h$, so the efficient acquisition rate is $q^{FB}=F(h)$.
+
+The main equilibrium result uses the open parameter region
+
+$$C>h,\qquad \lambda B<2p-1,\qquad L<h.\tag{D}$$
+
+Every structurally compatible observation has a type posterior in $[m_C,m_F]$, as shown in Appendix A. The first reputational bound makes an uninformed reversal strictly worse even under the greatest compatible reputation improvement. It also rules out reversing confirming evidence. The second ensures that sufficiently cheap investigation is profitable even if an off-path reversal received the lowest compatible reputation $m_C$. These are sufficient, economically interpretable restrictions, not claims about all career-concern environments. Together they rule out complete acquisition as well as zero acquisition. No label-symmetry selection is imposed.
+
+# 4. Equilibrium: reputation moves the distortion into acquisition
+
+## 4.1 A fixed-information benchmark
+
+If everyone receives $z$ at no choice or cost, a public reversal can reveal a contradictory event associated with lower initial diagnostic ability. With neither audit nor outcomes, a candidate strategy that reverses a fraction $\rho$ of contradictions gives
+
+$$m_N(\rho)=\frac{\mu(1-\rho d_H)}{1-\rho d},\quad
+m_N(\rho)-m_C=\frac{A}{1-\rho d}.\tag{3}$$
+
+Within evidence-following strategies, incomplete correction can be supported when its accuracy gain equals the reputational cost. This is a standard reputational-conservatism benchmark. Neither its correction formula nor an arbitrary belief at a zero-revision boundary is a main result of this article. The endogenous acquisition game instead has both final actions on path under (D), eliminating that boundary problem.
+
+## 4.2 Authenticated-diagnosis equilibrium
+
+**Theorem 1 (unique costly-search equilibrium).** Assume (D) and the information structure of Section 3. For every committed audit rule, all Bayesian sequentially consistent equilibria have the same outcome, except for a probability-zero acquisition-cost tie:
+
+1.  An uninformed manager retains $s$. An informed manager retains after confirmation and reverses after contradiction.
+
+2.  The manager acquires precisely when $c<c^*$. The acquisition rate $q=F(c^*)$ is the unique solution to
+
+$$c^*=h-\frac{(1-\tau_N)L}{1-dq},\qquad q=F(c^*).\tag{4}$$
+
+1.  Both retention and reversal occur with positive probability. Conditional on either diagnostic label,
+
+$$m_R=m_C,\quad m_N(q)=\frac{\mu(1-qd_H)}{1-qd},\quad D(q)=\frac{A}{1-qd}.\tag{5}$$
+
+1.  The rate $q$ is independent of $\tau_R$, increases strictly in $\tau_N$ below one, satisfies $0<q<q^{FB}$ for $\tau_N<1$, and equals $q^{FB}$ at $\tau_N=1$.
+
+*Economic argument.* The instrumental step below is an application of the antecedent identified in Section 2, not a separate priority claim. If buying information were followed by mixing over correction at an exact continuation indifference, its incremental private value before the cost would be zero. A positive acquisition cost therefore rules out that combination. Managers can be deterred from investigating, but those who pay to investigate must prefer to implement its useful contradiction. All retention histories then pool absence of investigation with confirming evidence. Equation (4) determines how the expected reputation loss of leaving that pool reduces willingness to investigate.
+
+*Proof.* Every observation coarsens the three primitive information events: no acquisition, acquired confirmation, and acquired contradiction. Their type posteriors are $\mu,m_F,m_C$, so consistency bounds every posterior by $[m_C,m_F]$. An uninformed reversal loses $2p-1$ in expected accuracy, more than the largest compatible reputation gain $\lambda B$. A reversal after confirmation loses still more. These actions are strictly dominated, regardless of off-path beliefs. At a fully documented history, the action supplies no further type information. An unaudited reversal, if on path, must therefore originate in acquired contradictory evidence.
+
+First rule out $q=0$. Retention then yields posterior $\mu$. A manager can buy evidence and reverse exactly at contradiction. Even giving an unaudited reversal posterior $m_C$, the gain from this deviation is at least $h-\lambda d(\mu-m_C)-c=h-L-c>0$ for sufficiently small $c$, by (D). Acquired evidence has positive probability in any equilibrium.
+
+The correction incentive is common to all cost types once the cost is sunk. If correction occurred with probability $\rho$, the net gain from acquisition would be
+
+$$d\rho\{g-(1-\tau_N)\lambda D\}-c.\tag{6}$$
+
+If the bracket is negative, correction never occurs. If zero, acquisition still loses $c>0$. Both contradict positive acquisition. Hence the bracket is strictly positive and every acquired contradiction is corrected. This determines the on-path posteriors (5).
+
+An audited reversal also yields $m_C$, so $\tau_R$ has no effect. An audited retention gives posterior $\mu$ when $e=0$ and $m_F$ after confirmation. The identity $dm_C+(1-d)m_F=\mu$ implies that acquiring and then following the signal changes expected reputation, relative to not acquiring, by $-(1-\tau_N)dD(q)$. Adding accuracy gain $h$ and subtracting cost gives (4).
+
+The right side of (4) decreases with $q$, whereas $F^{-1}(q)$ increases. At $q=0$ it is $h-(1-\tau_N)L>0$; at $q=F(h)$ it is at most $h$, strictly below for $\tau_N<1$. A unique solution follows by continuity. At that solution the correction gain is $c^*/d>0$, so all claimed actions and the acquisition cutoff are sequential best responses. These arguments apply separately for each $s$ and produce the same unique solution, rather than selecting a symmetric equilibrium. Complete documentation pins down off-path action beliefs as explained in Appendix A. $\square$
+
+**Corollary 1 (conditional correction can conceal an organizational distortion).** Within this environment, the conditional probability of using acquired contradictory evidence is one under every audit rule. Nevertheless, with $\tau_N<1$, real investment in evidence is inefficiently low. A comparison restricted to informed decision makers misses the distortion.
+
+This is a selection result, not a prescription to measure revision rates unconditionally. Total reversals are $qd$ and expected accuracy is $p+qh$. They can both increase when auditing encourages investigation, even though conditional evidence use never changes.
+
+## 4.3 Implicit acquisition comparative statics
+
+For a positive density $f$ at $c^*$, differentiating (4) gives
+
+$$\frac{dq}{d\tau_N}=\frac{L/(1-dq)}{1/f(c^*)+(1-\tau_N)Ld/(1-dq)^2}>0.\tag{7}$$
+
+A lower direct investigation cost can similarly raise acquisition, but it also raises the reputation of unchanged decisions by making their confirmation interpretation more credible. The denominator captures this equilibrium feedback. Greater acquisition does not leave the reputation wedge fixed. This is why replacing $\lambda$ with a disclosure-adjusted constant in a fixed-information correction formula does not solve the present model.
+
+# 5. Welfare-optimal targeted documentation
+
+## 5.1 Why reversals need no inspection in this class
+
+**Proposition 1 (audit targeting).** For $\kappa>0$, every welfare-optimal policy in the class of Section 3 has $\tau_R=0$.
+
+*Proof.* Theorem 1 shows that acquired contradictions are always corrected and that reversal already implies acquisition and contradiction. Inspection of a reversal therefore leaves the ability posterior at $m_C$. Changing $\tau_R$ leaves every acquisition and action incentive unchanged. Since $qd>0$, a positive $\tau_R$ uses strictly positive audit resources with no information or decision benefit in this model. $\square$
+
+Targeting is not an assumption that unchanged decisions are suspicious in an everyday sense. It follows from the informativeness of equilibrium reversal and from the audit's limited contents. An audit that can discover fraud, undocumented private signals, or manipulation may make reversal inspections valuable; those benefits are absent here.
+
+Write $\tau=\tau_N$. Welfare relative to the original unaudited diagnosis is
+
+$$V(\tau)=h q-\int_0^{c^*}c\,dF(c)-\kappa\tau(1-dq),\tag{8}$$
+
+where $q$ and $c^*$ are determined by (4). The audit rate is $\tau(1-dq)$, not $\tau$: the policy does not inspect reversals. Gross firm decision value is $p+qh$. Total surplus also deducts real investigation costs. Ex ante mean reputation is $\lambda\mu$ under every Bayesian policy and therefore drops out of the comparison. Career assessments redistribute rents across histories; they are not themselves a net resource gain in this linear-payoff environment.
+
+## 5.2 Exact global solution under uniform investigation costs
+
+Suppose $F(c)=c/C$ on $[0,C]$. Define $q_0=q(0)$ and $q_f=h/C$. They satisfy
+
+$$Cq_0=h-\frac{L}{1-dq_0},\quad 0<q_0<q_f<1.\tag{9}$$
+
+The audit rate required to implement acquisition probability $q\in[q_0,q_f]$ is
+
+$$\tau(q)=1-\frac{(h-Cq)(1-dq)}{L}.\tag{10}$$
+
+It is strictly increasing and maps the feasible interval onto $[0,1]$. Let
+
+$$H(q)=\tau(q)(1-dq),\quad
+V(q)=h q-\frac{Cq^2}{2}-\kappa H(q).\tag{11}$$
+
+**Theorem 2 (global finite characterization).** The welfare-optimal feasible audit is obtained by evaluating (11) at $q_0$, $q_f$, and the real roots in $[q_0,q_f]$ of
+
+$$0=h+\kappa d-Cq-\frac{\kappa}{L}
+\{C+2dh-(4Cd+2d^2h)q+3Cd^2q^2\}.\tag{12}$$
+
+The maximizing candidate, mapped through (10), is globally optimal. Ties are genuine policy multiplicity and can be resolved by the smaller audit rate. No local first-order condition alone is used to claim optimality.
+
+*Proof.* Equation (10) implements each and only each feasible acquisition rate by Theorem 1. Substitution makes (11) a cubic polynomial on a compact interval. Its global maximum exists and lies at an endpoint or a zero of its derivative, which is (12). Proposition 1 has already removed the redundant audit instrument. $\square$
+
+The characterization is valid without presuming that welfare is concave, audit demand is increasing, or the optimum is interior. A sharper economically interpretable result follows in a nonempty parameter region.
+
+## 5.3 An explicit audit-cost threshold
+
+Let $t_0=1-dq_0$ and $x_0=Ld/(Ct_0^2)$. Define
+
+$$x_c=\frac{\sqrt{17}-3}{4},\qquad
+\kappa_c=\frac{L^2}{t_0(Ld+Ct_0^2)}.\tag{13}$$
+
+**Theorem 3 (unique partial audit or no audit).** In addition to (D), suppose $x_0<x_c$. Then the optimal policy is unique:
+
+-   At $\kappa=0$, $q^*=q_f$ and $\tau^*=1$, up to the costless redundant reversal-audit instrument.
+
+-   For $0<\kappa<\kappa_c$, $q_0<q^*<q_f$ and $0<\tau^*<1$. The larger root of (12) in the feasible interval is the unique optimum.
+
+-   For $\kappa\geq\kappa_c$, $q^*=q_0$ and $\tau^*=0$.
+
+The optimal acquisition and audit probabilities decrease strictly with $\kappa$ in the interior region. Complete auditing of unchanged decisions is inefficient at every strictly positive audit cost in this parameter region.
+
+*Proof.* With $t=1-dq$,
+
+$$H'=-d+\frac{Ct^2+2d(h-Cq)t}{L},$$ $$H''=-\frac{4Cd t+2d^2(h-Cq)}{L}<0,\quad H'''=\frac{6Cd^2}{L}>0.\tag{14}$$
+
+At the no-audit endpoint, (9) implies
+
+$$H'(q_0)=d+Ct_0^2/L,\quad V'(q_0)=L/t_0-\kappa H'(q_0).$$
+
+Its zero is exactly $\kappa_c$. Since $1-dq_f=t_0(1-x_0)$,
+
+$$H'(q_f)=d\{(1-x_0)^2/x_0-1\}>0$$
+
+under $x_0<x_c<(3-\sqrt5)/2$. As $H''<0$, $H'>0$ over the entire feasible interval.
+
+At $\kappa=\kappa_c$,
+
+$$\frac{\kappa_c[-H''(q_0)]}{C}=\frac{4x_0+2x_0^2}{1+x_0}<1.\tag{15}$$
+
+Because $H''$ increases with $q$, this makes $V''=-C-\kappa H''<0$ throughout the interval for all $0\leq\kappa\leq\kappa_c$. When $0<\kappa<\kappa_c$, $V'(q_0)>0$ while $V'(q_f)=-\kappa H'(q_f)<0$, giving a unique interior maximum. At $\kappa_c$, strict concavity and $V'(q_0)=0$ give unique optimum $q_0$. For larger $\kappa$, relative welfare at any $q>q_0$ falls by the additional positive amount $(\kappa-\kappa_c)[H(q)-H(q_0)]$, so no auditing remains uniquely optimal. Finally, implicit differentiation of the interior first-order condition gives $dq^*/d\kappa=H'/V''<0$, and (10) is increasing. $\square$
+
+Partial auditing therefore follows from a derived trade-off between additional socially valuable investigation and real inspection cost. The regularity condition concerns the geometry of the audit workload, not an imposed sign of effort's response. Theorem 2 supplies the global answer when that condition fails.
+
+## 5.4 What the optimum does not cover
+
+The planner does not receive Prat's convex benefit from identifying and replacing high- or low-ability managers. Adding a sorting payoff can make extra information valuable even when final accuracy does not change, and it can change optimal audit targeting. Likewise, a firm that excludes the manager's investigation cost from its objective maximizes $hq-\kappa H(q)$, not (11). Its optimum is obtained from the same endpoint comparison with derivative $h-\kappa H'(q)$, and need not share Theorem 3's interior/no-audit threshold. The article's normative result is explicitly about total surplus within the stated audit technology.
+
+# 6. Information about own ability and strategic initial endorsement
+
+## 6.1 A solved private-ability counterexample
+
+The main theorem does not extend merely by replacing a common accuracy with type-specific accuracies. If a manager knows own ability, acquisition can reveal that the original diagnosis was weak. Independent documentation then cannot wash out the type information in the acquisition decision itself.
+
+**Proposition 2 (full trails need not restore efficient acquisition).** Consider $\mu=1/2$, $p_H=.85$, $p_L=.60$, $r=.80$, a common acquisition cost $c=.05$, career weight $\lambda=.20$, and full documentation after every final action. Suppose the manager knows $T$. There is a sequentially rational equilibrium in which high types never acquire, low types acquire with probability $2/3$, every acquired low type follows $z$, and every unacquired type retains $s$. Efficient acquisition would have all low types acquire and no high types acquire.
+
+*Proof.* In the proposed equilibrium, acquisition reveals $L$ with probability one, so its posterior is zero for every realized signal and action on path. No acquisition has posterior
+
+$$m_0=\frac{1/2}{1/2+(1/2)(1-2/3)}=3/4.$$
+
+A low type gains $.80-.60=.20$ in accuracy by acquiring and following $z$. Its utility difference is $.20-.05-.20(3/4)=0$, so mixing is optimal. After acquisition, both signal realizations have posterior zero and following $z$ strictly improves accuracy at contradiction. A high type's information benchmark retains $s$ even after contradiction, because $.85>.80$; acquiring therefore provides no accuracy gain, costs $.05$, and lowers its reputation from $.75$ to zero. It never acquires.
+
+Uninformed low-type reversal loses $.20$ in accuracy; even the highest off-path posterior one can improve its reputation payoff by at most $.20(1-.75)=.05$. It therefore retains. For high types the accuracy loss is $.70$, so retention is also strict. At acquired histories every signal/action pair used by a low type has positive probability. Other action histories can be assigned posterior zero by consistent perturbations in which high-type acquisition is arbitrarily rarer than low-type action mistakes. None benefits either type. Thus all acquisition and action deviations are checked. Without career concerns, low-type net acquisition value $.20-.05=.15$ is positive, while high-type value is negative. $\square$
+
+This finite example does not characterize all private-ability equilibria. It proves that Theorem 1's complete-documentation conclusion is not robust to private type information. In particular, type-independent acquisition is the substantive reason why an audited absence of acquisition receives prior reputation in the main environment.
+
+## 6.2 Endogenous endorsement with an authenticated diagnostic output
+
+**Proposition 3 (strategic endorsement conditional on a raw record).** Add a freely chosen initial recommendation $a_0\in\{0,1\}$ after observing $s$, before the cost draw, and a payoff $\beta1\{a_0=\theta\}$, with $\beta>0$. Keep $s$ authenticated and visible to the evaluator, and condition audit policy on final action relative to $s$. Under (D), the equilibrium of Theorem 1 remains unchanged, and $a_0=s$ is the unique initial recommendation.
+
+*Proof.* The manager's only information at the endorsement stage is $s$, not own type or future cost. Conditional on $s$, a recommendation or its tremble has no further information about $T$. Subsequent signals, cost distribution, and audit technology do not depend on the recommendation. The unique continuation of Theorem 1 consequently gives the same payoff after either $a_0$. The initial accuracy gain from choosing $s$ is $\beta(2p-1)>0$. $\square$
+
+The raw-record qualification is essential. If the manager can suppress or falsify $s$, or if audit classification uses a manipulable initial message instead of the diagnostic output, Proposition 3 does not apply. We have endogenized endorsement, not solved arbitrary strategic production of the first signal. The main new hidden action is the privately chosen production of corrective evidence.
+
+# 7. Numerical verification and implications for measurement
+
+The code implements the analytic equilibrium, all feasible terminal action plans, and the global audit solution. It uses exact expectations over type, state, and corrective signals rather than treating synthetic decisions as empirical observations. The calculations below are illustrative design inputs, not a calibration.
+
+Set $\mu=.5$, $p_H=.85$, $p_L=.60$, $r=.80$, $\lambda=1.5$, and $C=.15$. These values satisfy (D). Then $p=.725$, $h=.075$, $d=.365$, $L=.05625$, $q_0=.109403$, and $q_f=.5$. The audit regularity measure is $x_0=.148498<x_c$, and $\kappa_c=.02075475$.
+
+::: longtable
+@ \>p(- 8) \* \>p(- 8) \* \>p(- 8) \* \>p(- 8) \* \>p(- 8) \* @
+
+Audit cost $\kappa$
+
+&
+
+Optimal $\tau_N$
+
+&
+
+Acquisition $q$
+
+&
+
+Actual inspection rate
+
+&
+
+Net welfare gain over no audit
+
+\
+& 1.000000 & 0.500000 & 0.817500 & 0.011442\
+0.005 & 0.881826 & 0.447044 & 0.737937 & 0.007542\
+0.010 & 0.721369 & 0.378751 & 0.621644 & 0.004123\
+0.020 & 0.088175 & 0.139694 & 0.083679 & 0.000032\
+0.030 & 0.000000 & 0.109403 & 0.000000 & 0.000000\
+:::
+
+These are normalized accuracy and resource-cost units, with no empirical calibration. At $\kappa=.01$, gross accuracy rises by approximately .02020 relative to no audit, while investigation and inspection reduce the net welfare gain to .004123. Every investigator corrects every contradiction under both policies. For comparison, the fixed-information benchmark with the same signal parameters and $\lambda=1.5$ has $\rho=.684932$ within evidence-following strategies. The new equilibrium has conditional correction one but acquisition only .109403 without audit. The contrast concerns the location of the distortion, not a welfare ranking between environments with different information costs.
+
+For 400 independently generated admissible parameter configurations, the reproduction program checks acquisition indifference, evaluates 4,800 complete terminal-plan deviations at costs on both sides of the cutoff, and compares the analytic policy against 1,001 independently evaluated audit probabilities per configuration. It also checks the threshold theorem and the equilibrium under two nonuniform cost distributions. The maximum acquisition-equation residual is below $9\times10^{-17}$. The maximal analytic advantage over the finite audit grid is about $5.54\times10^{-9}$, consistent with grid discretization. These computations supplement, and do not substitute for, the proofs.
+
+The principal measurement implication is that an audit policy can change the composition of informed decision makers. The unconditional causal effect of an announced policy on acquisition is well defined under random assignment. Conditioning on realized acquisition generally destroys that randomization. A near-perfect conditional correction rate can coexist with too little investigation; an unchanged final action is not by itself a measure of evidence rejection.
+
+A separate design supplement proposes a two-arm, evidence-technology-held-fixed test of paid acquisition. It retains a compulsory-evidence validation task to distinguish acquisition from comprehension, without making that selected conditional comparison the primary estimand. The earlier eight-cell factorial is an optional, superseded extension rather than the operational primary study. No experiment has been run.
+
+# 8. Conclusion
+
+The instrumental role of costly information is an antecedent, rather than this article's independent originality claim. In the authenticated-diagnosis environment solved here, private positive-cost acquisition changes the equilibrium expression of reputational resistance: managers who investigate use contradictory evidence efficiently, but too few investigate. The welfare loss is consequently upstream of the observed correction decision.
+
+This result leads to a precise audit implication. Within a committed action-contingent trail-inspection technology, reversals need no inspection because they already reveal the informative event. Inspecting unchanged decisions increases investigation, and its endogenous workload can be incorporated into an exact welfare solution. A sufficient regularity condition delivers a unique partial audit below a stated cost threshold and no audit above it.
+
+These conclusions require authenticated first diagnoses, the absence of private own-ability information in the main game, and the specified career and welfare objectives. The private-ability counterexample shows why documentation alone is not a universal remedy. The completed theoretical results identify a particular mechanism and a feasible policy trade-off; whether organizations exhibit that mechanism remains an empirical question.
+
+# References {#references .unnumbered}
+
+Bar-Isaac, H. 2011. "Transparency, Career Concerns, and Incentives for Acquiring Expertise." Author manuscript, October. [Author-uploaded manuscript](https://www.researchgate.net/publication/227378148_Transparency_Career_Concerns_and_Incentives_for_Acquiring_Expertise).
+
+Bar-Isaac, H. 2012. "Transparency, Career Concerns, and Incentives for Acquiring Expertise." *The B.E. Journal of Theoretical Economics* 12(1), Article 4. <https://doi.org/10.1515/1935-1704.1796>.
+
+Dietvorst, B. J., J. P. Simmons, and C. Massey. 2015. "Algorithm Aversion: People Erroneously Avoid Algorithms After Seeing Them Err." *Journal of Experimental Psychology: General* 144(1): 114-126. <https://doi.org/10.1037/xge0000033>.
+
+Gersbach, H., and V. Hahn. 2012. "Information Acquisition and Transparency in Committees." *International Journal of Game Theory* 41(2): 427-453. <https://doi.org/10.1007/s00182-011-0295-5>.
+
+Hoffman, M., L. B. Kahn, and D. Li. 2018. "Discretion in Hiring." *Quarterly Journal of Economics* 133(2): 765-800. <https://doi.org/10.1093/qje/qjx042>.
+
+Ishida, J., and W. Suen. 2026. "Signaling Vision: Knowing When to Quit." *International Economic Review* 67(3): 997-1013. <https://doi.org/10.1111/iere.70066>.
+
+Levy, G. 2007. "Decision Making in Committees: Transparency, Reputation, and Voting Rules." *American Economic Review* 97(1): 150-168. <https://doi.org/10.1257/aer.97.1.150>.
+
+Prat, A. 2005. "The Wrong Kind of Transparency." *American Economic Review* 95(3): 862-877. <https://doi.org/10.1257/0002828054201297>. The corresponding May 26, 2004 working paper is available at <https://eprints.lse.ac.uk/24712/1/dp498.pdf>.
+
+Prendergast, C., and L. Stole. 1996. "Impetuous Youngsters and Jaded Old-Timers: Acquiring a Reputation for Learning." *Journal of Political Economy* 104(6): 1105-1134. <https://doi.org/10.1086/262055>.
+
+Yaniv, I., and E. Kleinberger. 2000. "Advice Taking in Decision Making: Egocentric Discounting and Reputation Formation." *Organizational Behavior and Human Decision Processes* 83(2): 260-281. <https://doi.org/10.1006/obhd.2000.2909>.
+
+# Appendix A. Beliefs, acquisition value, and all information sets
+
+## A.1 Probability identities
+
+The primitive joint mass is
+
+$$P(T=t,\theta,s,z)=\frac{P(T=t)}{2}
+ p_t^{1\{s=\theta\}}(1-p_t)^{1\{s\ne\theta\}}
+ r^{1\{z=\theta\}}(1-r)^{1\{z\ne\theta\}}.$$
+
+Conditional on contradiction, the correct-$z$ mass is $(1-p)r$, the correct-$s$ mass is $p(1-r)$, their sum is $d$, and their difference is $h$. Thus the accuracy advantage of reversal is $g=h/d$. Conditional on confirmation, posterior accuracy is
+
+$$p_F=\frac{pr}{pr+(1-p)(1-r)}>p>1/2.$$
+
+The type posteriors $m_C,m_F$ obey $dm_C+(1-d)m_F=\mu$. Since $p_H>p_L$ and $r>1/2$, $d_H<d_L$ and $m_C<\mu<m_F$.
+
+## A.2 What sequential consistency pins down
+
+Before acquisition, $c$ is independent of $(T,\theta,s)$. Every admissible acquisition strategy or perturbation is a function of $(s,c)$ alone. For an acquired history, $c$ conditional on $s,e,z$ is therefore independent of $T$: its density is proportional to $f(c)P(e=1\mid s,c)$, with the type-dependent likelihood of $(s,z)$ canceling from its normalization. Any subsequent action strategy depends only on $(s,e,z,c)$ and independent mixing, so it has no incremental type information conditional on the complete record. The audit flag, conditional on action, is also type-independent by construction. Consequently audited $e=0$ histories have posterior $\mu$ and audited acquired histories have posterior $m_C$ or $m_F$, even in limits approaching an otherwise off-path action.
+
+This conclusion does not impose type-independent actions when the manager actually knows type. It uses the manager's feasible information in this model. It also does not claim uniqueness in the unrestricted set of weak PBE assessments with arbitrary, structurally incompatible zero-probability beliefs. Such assessments are excluded by consistency, not selected according to favorable welfare.
+
+## A.3 Initial, uninformed, confirming, and contradictory decisions
+
+Every final observation is a coarsening of histories with primitive posteriors $\mu,m_C,m_F$. Bayes-consistent perturbations preserve their convex hull, including at off-path observations. The maximum compatible difference in reputation payoff is consequently $\lambda B$. Condition (D) thus strictly rules out reversal without evidence. The confirmation accuracy advantage exceeds $2p-1$, so confirming reversal is also strictly dominated. This argument holds before deriving any equilibrium posteriors and therefore excludes perverse action pooling independently of an off-path belief selection.
+
+If no cost type acquired, a sufficiently cheap manager could acquire and implement the accuracy-improving signal. Unacquired reputation on path is $\mu$. Audited acquisition has mean posterior $\mu$ by the identity in A.1. Assigning the lowest compatible posterior $m_C$ to every unaudited reversal bounds the reputation loss by $L=\lambda d(\mu-m_C)$, yielding the profitable deviation used in Theorem 1. Thus $q>0$ at each diagnostic label.
+
+Given positive acquisition and no dominated reversals, any reversal identifies contradiction. If acquired contradictions were not corrected with positive probability, there would be no benefit to acquisition. If contradictory actions mixed, their continuation difference would be zero. The conditional acquired-confirming action is the same action as without acquisition, and complete records have mean ability posterior $\mu$. Integrating over the two evidence realizations then gives (6), equal to $-c$ at a contradictory indifference. Since $F$ has no atom at zero, positive acquisition requires strictly positive continuation value and full correction. The cost draw is sunk and gives no information about the state, so it cannot justify a different contradictory action across cost types.
+
+## A.4 Direct calculation of acquisition value under targeted audit
+
+Given a hypothesized $q$ and full use, unacquired reputation is
+
+$$(1-\tau)m_N+\tau\mu.$$
+
+Acquired reputation, averaged over the signal, is
+
+$$dm_C+(1-d)[(1-\tau)m_N+\tau m_F].$$
+
+Subtracting the former from the latter and using A.1 gives
+
+$$-(1-\tau)d(m_N-m_C).$$
+
+A reversal audit does not change $m_C$ and hence does not enter the calculation. Acquisition supplies gross accuracy gain $h$. Subtracting its cost gives cutoff (4), and the equilibrium contradiction gain is
+
+$$g-(1-\tau)\lambda D(q)=c^*/d>0.$$
+
+This verifies the correction deviation that remains after the acquisition threshold is solved. The other action deviations were excluded in A.3. At $c=c^*$, either acquisition choice is optimal, but this cost has zero probability and has no effect on the allocation or audit optimum.
+
+## A.5 Existence with a general cost distribution
+
+Let $B(q)=F[h-(1-\tau)L/(1-dq)]$, with the CDF extended by zero below zero and one above $C$. The map is continuous and nonincreasing. Since (D) implies $L<h$, $B(0)>0$. Also $B(F(h))\leq F(h)$, with a strict inequality when $\tau<1$. Hence $q-B(q)$ is strictly increasing and crosses zero exactly once. At that fixed point the posteriors and strict action best responses in A.4 construct an equilibrium. The acquisition and audit comparative statics in (7) follow by differentiation; existence and uniqueness do not require differentiability at every cost.
+
+# Appendix B. Closed forms and global policy verification
+
+For uniform cost, the smaller root of the no-audit equation is
+
+$$q_0=\frac{C+hd-\sqrt{(C-hd)^2+4CdL}}{2Cd}.$$
+
+The other root lies outside the economically relevant interval. Since $L<h$, the smaller root is positive. The inverse policy (10) has derivative
+
+$$\tau'(q)=\frac{C(1-dq)+d(h-Cq)}{L}>0.$$
+
+Thus implementing larger $q$ requires strictly greater retention auditing. Differentiating $H=\tau(1-dq)$ produces (14) and then (12). A real-root solution outside $[q_0,q_f]$ is infeasible and must not be used. Under the regularity condition in Theorem 3, the derivative polynomial is strictly decreasing on this feasible interval whenever the policy is interior, so its relevant root is the larger algebraic root; the smaller root is outside the interval or a local minimum outside the concave feasible region.
+
+At $\kappa=0$ welfare increases up to $q_f$ and only complete retention auditing implements that endpoint. For every $\kappa>0$ in Theorem 3's region, $H'(q_f)>0$ and $V'(q_f)<0$, so a slight reduction from complete auditing increases welfare. This proves that partial audit is not inferred from a parameter sweep.
+
+For arbitrary admissible parameters without $x_0<x_c$, the cubic can be nonconcave and may have more than one local extremum. Theorem 2 remains sufficient for global optimization. It does not select a favorable equilibrium: the acquisition allocation is already unique under (D). Policy ties in the cubic problem are different from signaling-equilibrium multiplicity.
+
+# Appendix C. Welfare accounting and excluded instruments
+
+Under any equilibrium, iterated expectations gives $\mathbb E[m]=\mu$. With linear reputation payoff, mean reputation is unchanged by audit policy even though ex post contradicted managers can prefer concealment. The real investigation cost of a uniform cutoff is
+
+$$\int_0^{Cq}c\,\frac{dc}{C}=Cq^2/2.$$
+
+This proves the total-surplus formula (11). A policy that orders additional useful evidence but charges its real investigation cost to someone outside the firm does not make that cost disappear from welfare. Conversely, a profit calculation that omits it must not be labeled the social optimum.
+
+If the planner could directly buy the corrective evidence for every cost type below $h$, reveal it without an audit infrastructure cost, and enforce its use, the feasible set would be different and could attain $q_f$ at lower cost. The article does not rule out that intervention. The solved problem concerns environments where the relevant diagnostic work is privately chosen and verification of its trail consumes resources. Similarly, allowing sanctions, nonlinear contracts, endogenous auditor competence, selective deletion, or a direct sorting payoff changes the design problem. None is silently optimized by Theorems 2 or 3.
