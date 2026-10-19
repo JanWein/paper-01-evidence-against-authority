@@ -1,0 +1,13 @@
+id,claim,source,identifier,access_or_validation,scope
+P1,Fixed-information reputational conservatism is a benchmark,Prendergast and Stole 1996,10.1086/262055,"Author-hosted model/equilibrium and final publisher record, read in R1",Not the novelty claim
+P2,"Action/consequence, discipline/sorting and complementarity comparison",Prat 2005; May 2004 WP,10.1257/0002828054201297; https://eprints.lse.ac.uk/24712/1/dp498.pdf,Full working-paper text retrieved R2; final AER metadata verified,Claims about numbered WP propositions identified as such
+P3,Committee voting and reputation differ from trail auditing,Levy 2007,10.1257/aer.97.1.150,AEA record/description and author publication link,Full PDF not obtained; no detailed theorem claim
+P4,Instrumental-acquisition antecedent and closest endogenous-information comparison,Bar-Isaac October 2011 manuscript; 2012 final record,10.1515/1935-1704.1796,Sections 2-4 and Proposition 1/proof read in full; provenance in reading_BarIsaac_R3.txt,Antecedent credited; final-PDF proposition numbering not inferred
+P5,Costly information and transparency already modeled in committees,Gersbach and Hahn 2012,10.1007/s00182-011-0295-5,ETH full working paper and final Springer record/abstract,No claim adding effort alone is novel
+P6,Quitting can signal competence in another information structure,Ishida and Suen 2026,10.1111/iere.70066,Open-access publisher full text read R1,Different information arrival/type structure
+P7,Hiring discretion motivates benchmark-based assessment,"Hoffman, Kahn and Li 2018",10.1093/qje/qjx042,"Publisher indexed excerpt, final bibliographic record",No claim their design identifies reversal reputation
+P8,Advice and algorithm reliance are distinct mechanisms,Dietvorst et al. 2015; Yaniv and Kleinberger 2000,10.1037/xge0000033; 10.1006/obhd.2000.2909,Wharton and Hebrew University full texts read R1,No empirical inference for present model
+T1,"Acquisition substitution, unique cutoff and audit targeting",This article,Theorem 1; Proposition 1; Appendix A,New proofs in R2 and executed all-plan checks,Conditional on D; instrumental step not claimed original
+T2,Global audit optimum and partial/no-audit threshold,This article,Theorems 2-3; Appendix B,New polynomial solution and proof; independent audit-grid checks,Main bounded design contribution; feasible class only
+T3,Known-ability counterexample and initial endorsement,This article,Propositions 2-3,Finite proof with terminal deviation checks; conditional endorsement proof,No general known-type equilibrium classification
+N1,Numerical table and verification counts,Executed reproduction,results/verification.json,"Standard-library Python, seed 81701","Synthetic, no calibration or empirical observations"
